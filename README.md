@@ -7,7 +7,7 @@ Protect your Dinkly application from CSRF exploits
 Installation
 ------------
 
-  1. Move the contents of the `plugins` folder into your dinkly project's `plugins` folder.
+  1. Move the `csrf_protect` folder into your dinkly project's `plugins` folder.
 
   2. Copy `csrf_protect.js` into `web/js`
 
