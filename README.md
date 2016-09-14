@@ -1,5 +1,5 @@
-Dinkly CSRF Protect v1.00 (dinkly-plugin-csrf)
-==============================================
+Dinkly CSRF Protect Plugin v1.00
+================================
 
 Protect your Dinkly application from CSRF exploits
 
