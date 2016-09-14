@@ -11,7 +11,7 @@ Installation
 
   2. Copy `csrf_protect.js` into `web/js`
 
-  3. Add the following lines under the `plugins` section of your `config.yml` file:
+  3. Add the following lines under the `plugins` section of your `config/config.yml` file:
 
     ```yaml
     csrf_protect:
