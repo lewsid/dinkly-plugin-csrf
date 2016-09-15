@@ -17,9 +17,8 @@ Installation
     csrf_protect:
             apps:
                 csrf_protect:
-                    app_name: CsrfProtect
-                    is_plugin: true
                     base_href: /protect
+                    app_name: CsrfProtect
                     enabled: true
                     default_module: tokenizer
     ```
