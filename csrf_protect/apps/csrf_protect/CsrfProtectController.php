@@ -8,16 +8,7 @@
  * @author     Christopher Lewis <lewsid@lewsid.com>
  */
 
-class CsrfProtectController extends Dinkly
+class CsrfProtectController extends BaseCsrfProtectController
 {
-	/**
-	 * Default Constructor
-	 * 
-	 * @return bool: always returns true on successful construction of view
-	 * 
-	 */
-	public function __construct()
-	{
-		return true;
-	}
+	//Put your overrides here
 }
