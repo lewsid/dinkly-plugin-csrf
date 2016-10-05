@@ -4,6 +4,9 @@ $(function() {
 		type: "POST",
 		success: function(response) {
 			$('form').append('<input type="hidden" name="csrf_token" value="' + response + '" />');
+			$.ajaxSetup({
+				data: { csrf_token: response }
+			});
 		}
 	});
 });
