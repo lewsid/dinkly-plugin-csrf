@@ -17,14 +17,17 @@ Installation
     csrf_protect:
             apps:
                 csrf_protect:
-                    app_name: CsrfProtect
-                    is_plugin: true
                     base_href: /protect
+                    app_name: CsrfProtect
                     enabled: true
                     default_module: tokenizer
     ```
 
-  4. Include the js in the header.php file of each app you wish to lock down: `<script type="text/javascript" src="/js/bootstrap.min.js"></script>`
+  4. Copy the `csrf_protect.js` file under `web/js` in your project's js folder, then include the js in the header.php file of each app you wish to lock down: 
+  
+  ```html
+  <script type="text/javascript" src="/js/csrf_protect.js"></script>
+  ```
 
   5. Enable CSRF protect at the app or module level by calling the static enforce function: 
 
